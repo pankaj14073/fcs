@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html style="height: 400px">
+<head>
+  <meta charset="UTF-8">
+  <title>Calm breeze login screen</title>
+      <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper"  style="height: 500px">
+	<div class="container"  style="height: 500px">
+		<h1>Register</h1>
+		<form  id="mainForm"  action="login.html" class="form">
+        <input id="username" type="text" placeholder="Username or Email"><br>
+             <input id="password" type="password" placeholder="Password">
+         <input type="hidden"  id="number" name="Number">
+       <div class="choose">
+            <h2>Choose number Range(4-20)   </h2>
+        <label  for='options'>                 </label>
+         <SELECT  id ='choose' NAME="choose"   style="margin-left:15px">
+                 <OPTION SELECTED>0
+                 <OPTION> 4 </OPTION> 
+                 <OPTION> 6 </OPTION> 
+                 <OPTION> 8 </OPTION> 
+                 <OPTION> 10 </OPTION> 
+                 <OPTION> 12 </OPTION> 
+                 <OPTION> 14 </OPTION> 
+                 <OPTION> 16 </OPTION> 
+                 <OPTION> 18 </OPTION> 
+                 <OPTION> 20 </OPTION> 
+                   </SELECT>  
+           </div>
+        <div class="label">                   
+            </div><br>
+                                    
+          <input name="InputNumber" id="inputnumber"placeholder="*OPERATOR+NUMBER*" type="text" />  
+            <button type="submit" id="login-button"   action="login.html">GO</button>
+           
+        </form>
+	</div>
+</div>
+     <script src="js/rollups/aes.js"></script>
+     <script src="js/indexjs.js">
+ 
+ </script>
+
+</body>
+</html>
